@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import openai
 import tkinter.messagebox as mbox
 
-openai.api_key = "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"
+openai.api_key = "your-API_key"
 model_engine = 'text-davinci-003'
 
 def generate_text():
