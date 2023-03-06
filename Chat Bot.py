@@ -12,4 +12,4 @@ while True :
     if query in exit_conditions :
         break
     else :
-        print(f"🪴{chatbot.generate_response(query)}")
+        print(f"🪴{chatbot.get_response(query)}")
